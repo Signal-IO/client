@@ -64,7 +64,7 @@
     <div class="u-stretch"></div>
     <a class="annotation-link u-strong" ng-show="vm.canCollapseBody"
       ng-click="vm.toggleCollapseBody($event)"
-      ng-title="vm.collapseBody ? 'Show the full annotation text' : 'Show the first few lines only'"
+      ng-title="vm.collapseBody ? 'Show the full message text' : 'Show the first few lines only'"
       ng-bind="vm.collapseBody ? 'More' : 'Less'"
       h-branding="accentColor"></a>
   </div>
@@ -145,14 +145,14 @@
         <annotation-action-button
          icon="'h-icon-annotation-flag'"
          is-disabled="vm.isDeleted()"
-         label="'Report this annotation to the moderators'"
+         label="'Report this message to the moderators'"
          ng-if="!vm.isFlagged()"
          on-click="vm.flag()"
         ></annotation-action-button>
         <annotation-action-button
          icon="'h-icon-annotation-flag annotation--flagged'"
          is-disabled="vm.isDeleted()"
-         label="'Annotation has been reported to the moderators'"
+         label="'Message has been reported to the moderators'"
          ng-if="vm.isFlagged()"
         ></annotation-action-button>
       </span>
