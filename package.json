@@ -1,9 +1,9 @@
 {
-  "name": "hypothesis",
+  "name": "Travrse",
   "version": "1.82.0",
-  "description": "Annotate with anyone, anywhere.",
+  "description": "A Modern Library for Digital Teams",
   "license": "BSD-2-Clause",
-  "homepage": "https://hypothes.is",
+  "homepage": "https://travr.se",
   "bugs": "https://github.com/hypothesis/client/issues",
   "repository": "hypothesis/client",
   "devDependencies": {
