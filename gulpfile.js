@@ -265,12 +265,13 @@ function generateBootScript(manifest) {
   var { version } = require('./package.json');
 
   var defaultSidebarAppUrl = process.env.SIDEBAR_APP_URL ?
-    `${process.env.SIDEBAR_APP_URL}` : 'https://hypothes.is/app.html';
+    `${process.env.SIDEBAR_APP_URL}` : 'https://travr.se/app.html';
 
   var defaultAssetRoot;
 
   if (process.env.NODE_ENV === 'production') {
-    defaultAssetRoot = `https://cdn.hypothes.is/hypothesis/${version}/`;
+    defaultAssetRoot = `https://travrse-js.bitballoon.com/hypothesis/${version}`; 
+    // defaultAssetRoot = `https://cdn.hypothes.is/hypothesis/${version}/`;
   } else {
     defaultAssetRoot = `http://${packageServerHostname()}:3001/hypothesis/${version}/`;
   }

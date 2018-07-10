@@ -33,7 +33,7 @@
           <div class="group-name-container">
             <a class="group-name-link"
                href=""
-               title="{{ group.type === 'private' ? 'Show and create annotations in ' + group.name : 'Show public annotations'  }}">
+               title="{{ group.type === 'private' ? 'Show and create discussions in ' + group.name : 'Show public discussions'  }}">
                {{group.name}}
             </a>
           </div>
@@ -62,7 +62,7 @@
       <div class="group-item" ng-click="vm.createNewGroup()">
         <div class="group-icon-container"><i class="h-icon-add"></i></div>
         <div class="group-details">
-          <a href="" class="group-name-link" title="Create a new group to share annotations">
+          <a href="" class="group-name-link" title="Create a new group">
             New private group
           </a>
         </div>

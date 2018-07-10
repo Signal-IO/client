@@ -19,7 +19,7 @@ It’s used by the [Hypothesis browser extension][ext], and can also be
 ![Screenshot of Hypothesis client](/images/screenshot.png?raw=true)
 
 [service]: https://github.com/hypothesis/h
-[ext]: https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek
+[ext]: https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/fgnedpklfijmpcadfmalcjbclhlafdec
 [embed]: https://h.readthedocs.io/projects/client/en/latest/publishers/embedding/
 
 Development

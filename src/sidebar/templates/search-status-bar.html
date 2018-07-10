@@ -16,10 +16,10 @@
           ng-click="vm.onClearSelection()"
           title="Clear the selection and show all annotations">
     <span ng-if="!vm.selectedTab || vm.selectedTab === vm.TAB_ORPHANS">
-      Show all annotations and notes
+      Show all discussions and notes
     </span>
     <span ng-if="vm.selectedTab === vm.TAB_ANNOTATIONS">
-      Show all annotations
+      Show all discusssions
       <span ng-if="vm.totalAnnotations > 1">
         ({{vm.totalAnnotations}})
       </span>

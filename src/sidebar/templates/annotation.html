@@ -1,5 +1,5 @@
 <header class="annotation-header" ng-if="!vm.user()">
-  <strong>You must be logged in to create annotations.</strong>
+  <strong>You must be logged in to start a discussion.</strong>
 </header>
 
 <div ng-keydown="vm.onKeydown($event)" ng-if="vm.user()">
@@ -64,7 +64,7 @@
     <div class="u-stretch"></div>
     <a class="annotation-link u-strong" ng-show="vm.canCollapseBody"
       ng-click="vm.toggleCollapseBody($event)"
-      ng-title="vm.collapseBody ? 'Show the full annotation text' : 'Show the first few lines only'"
+      ng-title="vm.collapseBody ? 'Show the full message text' : 'Show the first few lines only'"
       ng-bind="vm.collapseBody ? 'More' : 'Less'"
       h-branding="accentColor"></a>
   </div>
@@ -88,7 +88,7 @@
         title="View more information about the Creative Commons Public Domain dedication"
         target="_blank">
         <i class="h-icon-cc-logo"></i><i class="h-icon-cc-zero"></i>
-        Annotations can be freely reused by anyone for any purpose.
+        Public discussions can be freely reused by anyone for any purpose.
       </a>
     </div>
 
@@ -145,14 +145,14 @@
         <annotation-action-button
          icon="'h-icon-annotation-flag'"
          is-disabled="vm.isDeleted()"
-         label="'Report this annotation to the moderators'"
+         label="'Report this message to the moderators'"
          ng-if="!vm.isFlagged()"
          on-click="vm.flag()"
         ></annotation-action-button>
         <annotation-action-button
          icon="'h-icon-annotation-flag annotation--flagged'"
          is-disabled="vm.isDeleted()"
-         label="'Annotation has been reported to the moderators'"
+         label="'Message has been reported to the moderators'"
          ng-if="vm.isFlagged()"
         ></annotation-action-button>
       </span>
