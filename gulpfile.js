@@ -270,7 +270,7 @@ function generateBootScript(manifest) {
   var defaultAssetRoot;
 
   if (process.env.NODE_ENV === 'production') {
-    defaultAssetRoot = `https://travrse-js.bitballoon.com/build/`; 
+    defaultAssetRoot = `https://cdn.travr.se/build/`; 
     // defaultAssetRoot = `https://cdn.hypothes.is/hypothesis/${version}/`;
   } else {
     defaultAssetRoot = `http://${packageServerHostname()}:3001/hypothesis/${version}/`;
