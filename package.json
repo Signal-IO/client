@@ -5,7 +5,7 @@
   "license": "BSD-2-Clause",
   "homepage": "https://travrs.se",
   "bugs": "https://github.com/hypothesis/client/issues",
-  "repository": "hypothesis/client",
+  "repository": "signal-io/travrse-client",
   "devDependencies": {
     "angular": "^1.6.9",
     "angular-mocks": "^1.6.9",
