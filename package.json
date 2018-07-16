@@ -4,7 +4,7 @@
   "description": "Modern Library for Digital Teams",
   "license": "BSD-2-Clause",
   "homepage": "https://travrs.se",
-  "bugs": "https://github.com/hypothesis/client/issues",
+  "bugs": "https://github.com/signal-io/travrse-client/issues",
   "repository": "signal-io/travrse-client",
   "devDependencies": {
     "angular": "^1.6.9",
