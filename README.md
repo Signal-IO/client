@@ -1,11 +1,9 @@
 Travrse Web Client
 =================
 
-[![Build status](https://img.shields.io/travis/hypothesis/client/master.svg)][travis]
 [![npm version](https://img.shields.io/npm/v/hypothesis.svg)][npm]
 [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)][license]
 
-[travis]: https://travis-ci.org/hypothesis/client
 [npm]: https://www.npmjs.com/package/hypothesis
 [license]: https://github.com/Signal-IO/travrse-client/blob/master/LICENSE
 
