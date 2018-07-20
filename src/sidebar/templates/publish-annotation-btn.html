@@ -3,7 +3,7 @@
     label="'Post to ' + vm.publishDestination()"
     on-click="vm.onSave()"
     on-toggle-dropdown="vm.showDropdown = !vm.showDropdown"
-    title="Publish this discussion to {{vm.publishDestination()}}"
+    title="Publish this insight/discussion to {{vm.publishDestination()}}"
     dropdown-menu-label="Change annotation sharing setting"
     is-disabled="!vm.canPost">
   </dropdown-menu-btn>
@@ -38,7 +38,7 @@
 </div>
 <button class="publish-annotation-cancel-btn btn-clean"
         ng-click="vm.onCancel()"
-        title="Cancel changes to this discussion"
+        title="Cancel changes to this insight/discussion"
         >
   <i class="h-icon-cancel-outline publish-annotation-cancel-btn__icon btn-icon"></i> Cancel
 </button>
