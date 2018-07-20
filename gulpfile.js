@@ -269,7 +269,9 @@ function generateBootScript(manifest) {
 
   var defaultAssetRoot;
 
-  if (process.env.NODE_ENV === 'production') {
+  if (process.env.DEFAULT_ASSET_ROOT) {
+    defaultAssetRoot = process.env.DEFAULT_ASSET_ROOT;
+  } else if (process.env.NODE_ENV === 'production') {
     defaultAssetRoot = `https://cdn.travr.se/`; 
     // defaultAssetRoot = `https://cdn.hypothes.is/hypothesis/${version}/`;
   } else {
