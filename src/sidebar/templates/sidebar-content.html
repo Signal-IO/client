@@ -13,7 +13,7 @@
   filter-active="!!vm.search.query()"
   filter-match-count="vm.visibleCount()"
   on-clear-selection="vm.clearSelection()"
-  search-query="vm.search ? vm.search.query : ''"
+  search-query="vm.search.query()"
   selection-count="vm.selectedAnnotationCount()"
   total-count="vm.topLevelThreadCount()"
   selected-tab="vm.selectedTab"
@@ -26,14 +26,14 @@
   <div class="annotation-unavailable-message__icon"></div>
   <p class="annotation-unavailable-message__label">
     <span ng-if="vm.auth.status === 'logged-out'">
-      This discussion is not available.
+      This insight or discussion is not available.
       <br>
       You may need to
       <a class="loggedout-message__link" href="" ng-click="vm.login()">log in</a>
       to see it.
     </span>
     <span ng-if="vm.auth.status === 'logged-in'">
-      You do not have permission to view this discussion.
+      You do not have permission to view this insight or discussion.
     </span>
   </p>
 </div>

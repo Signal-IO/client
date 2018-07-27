@@ -5,7 +5,7 @@
      href="#"
      ng-class="{'is-selected': vm.selectedTab === vm.TAB_ANNOTATIONS}"
      h-on-touch="vm.selectTab(vm.TAB_ANNOTATIONS)">
-    Discussions
+    Insights and Discussions
     <span class="selection-tabs__count"
       ng-if="vm.totalAnnotations > 0 && !vm.isWaitingToAnchorAnnotations">
       {{ vm.totalAnnotations }}
@@ -50,7 +50,7 @@
   </div>
   <div ng-if="vm.showAnnotationsUnavailableMessage()"  class="annotation-unavailable-message">
     <p class="annotation-unavailable-message__label">
-      There are no discussions in this group.
+      There are no insights or discussions in this group.
       <br />
       <div ng-if="!vm.showSidebarTutorial()" class="annotation-unavailable-message__tutorial">
         Create one by selecting some text and clicking the

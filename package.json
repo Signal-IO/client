@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "Travrse",
   "version": "1.82.0",
   "description": "A Modern Library for Digital Teams",
@@ -6,11 +7,20 @@
   "homepage": "https://travr.se",
   "bugs": "https://github.com/hypothesis/client/issues",
   "repository": "hypothesis/client",
+=======
+  "name": "travrse",
+  "version": "1.85.0",
+  "description": "Modern Library for Digital Teams",
+  "license": "BSD-2-Clause",
+  "homepage": "https://travrs.se",
+  "bugs": "https://github.com/signal-io/travrse-client/issues",
+  "repository": "signal-io/travrse-client",
+>>>>>>> 6f6c539ac1d2f56cfde6ff04456896793e123116
   "devDependencies": {
-    "angular": "^1.6.9",
-    "angular-mocks": "^1.6.9",
-    "angular-route": "^1.6.9",
-    "angular-sanitize": "^1.6.9",
+    "angular": "1.6.9",
+    "angular-mocks": "1.6.9",
+    "angular-route": "1.6.9",
+    "angular-sanitize": "1.6.9",
     "angular-toastr": "^1.7.0",
     "angulartics": "0.17.2",
     "autofill-event": "0.0.1",
