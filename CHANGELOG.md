@@ -4,6 +4,27 @@ Entries in this change log follow the format suggested at http://keepachangelog.
 
 # Change Log
 
+## [1.85.0] - 2018-07-10
+
+### Changed
+
+- Add ability to place sidebar in container element designated by host page
+  ([#707](https://github.com/hypothesis/client/pull/707)).
+
+## [1.84.0] - 2018-06-14
+
+### Changed
+
+- Fix "No results for {query}" message
+  ([#742](https://github.com/hypothesis/client/pull/742)).
+
+## [1.83.0] - 2018-06-08
+
+### Changed
+
+- Handle non percent-encoded URLs when replacing links with media embeds
+  ([#738](https://github.com/hypothesis/client/pull/738)).
+
 ## [1.82.0] - 2018-05-25
 
 ### Changed
