@@ -7,8 +7,8 @@ git tag --sign --message "Dummy Tag" dummy-tag
 git tag --delete dummy-tag > /dev/null
 
 # Check GitHub API access token
-CLIENT_INFO_URL=https://api.github.com/repos/hypothesis/client
-REPO_TMPFILE=/tmp/client-repo.json
+CLIENT_INFO_URL=https://api.github.com/repos/signal-io/travrse-client
+REPO_TMPFILE=/tmp/travrse-client-repo.json
 curl -s -H "Authorization: Bearer $GITHUB_TOKEN" $CLIENT_INFO_URL > $REPO_TMPFILE
 CAN_PUSH=$(node -p -e "perms = require('$REPO_TMPFILE').permissions, perms && perms.push")
 
