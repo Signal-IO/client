@@ -424,7 +424,7 @@ module.exports = class Guest extends Delegator
     @selectedRanges = []
 
     $('.annotator-toolbar .h-icon-annotate')
-      .attr('title', 'New Page Note')
+      .attr('title', 'New General Comment')
       .removeClass('h-icon-annotate')
       .addClass('h-icon-note');
 

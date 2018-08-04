@@ -61,7 +61,7 @@ module.exports = class Toolbar extends Plugin
           state = not @annotator.visibleHighlights
           @annotator.setAllVisibleHighlights state
     ,
-      "title": "New Page Note"
+      "title": "New General Comment"
       "class": "h-icon-note"
       "name": "insert-comment"
       "on":

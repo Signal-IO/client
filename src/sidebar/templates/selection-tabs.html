@@ -15,7 +15,7 @@
      href="#"
      ng-class="{'is-selected': vm.selectedTab === vm.TAB_NOTES}"
      h-on-touch="vm.selectTab(vm.TAB_NOTES)">
-    Page Notes
+    General Comments
     <span class="selection-tabs__count"
       ng-if="vm.totalNotes > 0 && !vm.isWaitingToAnchorAnnotations">
       {{ vm.totalNotes }}
@@ -39,7 +39,7 @@
 <div ng-if="!vm.isLoading()" class="selection-tabs__empty-message">
   <div ng-if="vm.showNotesUnavailableMessage()"  class="annotation-unavailable-message">
     <p class="annotation-unavailable-message__label">
-      There are no page notes in this group.
+      There are no general comments in this group.
       <br />
       <div ng-if="!vm.enableExperimentalNewNoteButton && !vm.showSidebarTutorial()" class="annotation-unavailable-message__tutorial">
         Create one by clicking the
